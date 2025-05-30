@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio </title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/">Jelin Praisy.J</a>
+        </div>
+
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin</span>
+            </a>
+
+            <a href="mailto:jelinpraisy2814@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+    
+    <main>
+        <!--Section 1:Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Jelin 👋</h2>
+                <p>Motivated and adaptable professional with a background in Electronics and Communication Engineering and a strong passion for technology and software development. Skilled in skills like Java,C programming,HTML and CSS. Demonstrates strong analytical thinking, problem-solving abilities, and a continuous learning mindset. Seeking an entry-level opportunity in the IT industry to apply technical skills and contribute to impactful projects.</p>
+            
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                    <span>Project</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="images/passport pic.jpeg" alt="Jelin headshot">
+            </div>
+        </section>
+
+        <!--Section 2:skils-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                "Proficient in core programming languages and web technologies including HTML, CSS, Java, and C. Experienced in creating responsive and visually appealing user interfaces using HTML and CSS. "
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/Java.png" alt="java logo">
+                    <span>JAVA</span>
+                </div>
+                <div class="cell">
+                    <img src="images/C.png" alt="c logo">
+                    <span>C</span>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 3:testimony-->
+        <section id="testimony" class="testimony-section">
+            <h2>Project</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="images/fpga_resized.JPG">
+                    <p>Vending machine</p>
+                    <p>The Smart Water and Juice vending Machine using FPGA</p>
+                </div>
+
+                <div class="text">
+                    "The Smart Juice and Water Vending Machine Using FPGA is an efficient, cost-effective solution designed to provide customizable beverage dispensing while minimizing waste. Utilizing FPGA technology, the system integrates a 16x2 LCD, 4x4 keypad, motors, and relays to enable precise control over dispensing eight different water quantities (100ml - 2L) and four juice options (1-4 cups). Unlike conventional vending machines, it offers manual payment validation, ensuring affordability and ease of use in diverse settings like schools, railway stations, and malls."
+                </div>
+            </div>
+        </section>
+
+        <!--Section 4:contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    "Feel free to get in touch with me for collaborations, project discussions, or any queries. I'm always open to learning and working on new challenges."
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
